@@ -116,9 +116,7 @@ const Pricing = () => {
                       >
                         <Check
                           size={12}
-                          className={
-                            isActive ? 'text-white' : 'text-purple-600'
-                          }
+                          className={isActive ? 'text-white' : 'text-green-600'}
                         />
                       </span>
                       {f}
